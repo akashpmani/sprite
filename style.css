@@ -1,0 +1,747 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+
+header{
+    width: 100%;
+    height: 17vh;
+    background-color: #009b4e;
+    position:fixed
+    
+    
+}
+.temp{
+    width: 100%;
+    height: 17vh;
+    background-color: #009b4e;
+    
+    
+    
+}
+.headlogo
+{
+width: 10%;
+height: 17vh;
+background-color: #009b4e;
+float: left;
+
+
+}
+.headnav{
+    margin-left: 70px;
+    width: 45%;
+    height: 17vh;
+    float: left;
+justify-content: space-between;
+background-color: #009b4e;
+}
+
+.products{
+   width: fit-content;
+    height: 9.8vh;
+    float: left;
+    background-color: #009b4e;
+    
+    margin-top: 45px;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+   font-stretch: expanded;
+   font-optical-sizing: 20;
+   color: beige;
+   background-color: #009b4e;
+   letter-spacing: -1px;
+   
+
+}
+.creators{
+    width: fit-content;
+    height: 9.8vh;
+    float: left;
+    background-color: #009b4e;
+    margin-left: 50px;
+    
+    margin-top: 45px;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+   font-stretch: expanded;
+   font-optical-sizing: 20;
+   color: beige;
+   background-color: #009b4e;
+   letter-spacing: -1px;
+   
+    
+}
+.buynow{
+    width: fit-content;
+    height: 9.8vh;
+    float: left;
+    background-color: #009b4e;
+    margin-left: 50px;
+    
+    margin-top: 45px;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+   font-stretch: expanded;
+   font-optical-sizing: 20;
+   color: beige;
+   background-color: #009b4e;
+   letter-spacing: -1px;
+   
+}
+.blank{
+    margin-left: 50px;
+    width: 75px;
+    height: 17vh;
+    float: left;
+    background-color: #009b4e;
+
+}
+
+
+.navfont
+{
+    margin-top: 45px;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+   font-stretch: expanded;
+   
+   color: beige;
+   background-color: #009b4e;
+   letter-spacing: -1px;
+   
+}
+
+.products:hover
+{
+    
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid black;
+    
+}
+.creators:hover
+{
+    
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid black;
+    
+}
+.buynow:hover
+{
+    
+    color: rgb(2, 0, 0);
+    border-bottom: 5px solid black;
+}
+    
+    .headsoci{
+        width: 30%;
+        height: 17vh;
+        float: right;
+        background-color: #009b4e;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    
+.medialink{
+    
+    height: 50%;
+    width: 100%;
+    background-color:#009b4e;
+    display: flex;
+    padding-top: 5px;
+   
+    
+   
+}
+
+.profile
+{
+    flex: 3;
+    width: 40%;
+    float: right;
+    height: 100%;
+    background-color: #009b4e;
+    padding-left: 30px;
+margin-top: -5px;
+
+}
+.icons :hover{
+    
+}
+
+.facebook{
+    flex: 1;
+    background-color: #009b4e;
+}
+.twitter{
+    flex: 1;
+    background-color: #009b4e;
+}
+.youtube{
+    flex: 1;
+    background-color: #009b4e;
+}
+.instagram{
+    flex: 1;
+    background-color: #009b4e;
+    margin-top: -5px;
+}
+.spotify{
+    flex: 1;
+    background-color: #009b4e;
+}
+.bodymain{
+
+    height: 75vh;
+    background: url(./Homepage\ Hero_Desktop.png);
+    background-size: cover;
+    background-color: #009b4e;
+    padding-top: 370px;
+    padding-left: 350px;
+    
+}
+.learmore{
+    width: 175px;
+    cursor: pointer;
+   height: 50px;
+   background-color: #E41B4F;
+   border-color: #ffff;
+   border: 2px solid;
+   border-color: #ffff;
+   text-align: center;
+   padding-top: 10px;
+   font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+   font-stretch: expanded;
+   font-optical-sizing: 20;
+   color: beige;
+}
+.signup
+{
+    width: 100%;
+    height: 10vh;
+    background-color: #E41B4F;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.signuptext
+{
+    
+    background-color: #E41B4F;
+    text-align: end;
+    align-self: center;
+    
+    color: aliceblue;
+
+}
+.signupbutton
+{
+    
+    background-color: #E41B4F;
+    align-self: center;
+    
+
+}
+.buttonsign
+{
+    
+    width: 200px;
+    cursor: pointer;
+   height: 50px;
+   background-color: #000000;
+   border-color: #ffff;
+   border: 2px solid;
+   border-color: #ffff;
+   text-align: center;
+   padding-top: 10px;
+   font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+   font-stretch: expanded;
+   font-optical-sizing: 20;
+   color: beige;
+}
+.hyperlink
+{
+    width: 100%;
+    height: 90vh;
+    background-color: #ffffff;
+    padding: 0 26.8%;
+}
+.drip{
+    font-size: 14px;
+
+    width: 100%;
+    height: 92vh;
+    background-color: #ffffff;
+}
+.drip .driphead
+{
+    margin-top: 30px;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-style: italic;
+    font-stretch: expanded;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.dripcont
+{
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.videoplayer{
+    width: 100%;
+    margin-top: 50px;
+    height: 350px;
+}
+.promotion
+{
+    width: 100%;
+    height: 75vh;
+    background-color: #000000;
+    display: flex;
+}
+.wakanda
+{
+    flex: 1;
+    background: url(./infinite-potential-zero-limits-desktop-2.png);
+    background-size: cover;
+}
+.plastic
+{
+    flex: 1;
+    background: url(./all-clear-from-here-wsc.png);
+    background-size: cover;
+}
+
+
+.buttonsign2
+{
+    width: 200px;
+    cursor: pointer;
+   height: 50px;
+   background-color:#009b4e;
+   
+   border-color: #ffff;
+   text-align: center;
+   padding-top: 10px;
+   font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+   font-stretch: expanded;
+   font-optical-sizing: 20;
+   color: beige;
+   margin-top: 370px;
+   margin-left: 240px;
+   padding-top: 12px;
+    
+}
+footer{
+    width: 100%;
+    height: 65vh;
+    padding: 0 10%;
+    background-color: #009b4e;
+}
+.mainfooter{
+    background-color: #009b4e;
+    width: 100%;
+    height: 65vh;
+
+}
+.leftfooter
+{
+    width: 50%;
+    height: 65vh;
+    background-color: #009b4e;
+    float: left;
+
+}
+.rightfooter
+{
+    width: 50%;
+    height: 65vh;
+    float: left;
+    background-color:#009b4e
+
+}
+.footerlogo
+{
+    width: 50%;
+    height: 65vh;
+    float: left;
+    background-color: #009b4e;
+
+}
+.footermedia
+{
+    width: 50%;
+    height: 65vh;
+    float: left;
+    background-color:#009b4e
+
+}.footerlogosp
+{
+    width: 100%;
+    height: 40vh;
+    
+    
+    background-color: #009b4e
+}
+.spritelogo
+{
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 100%;
+    height: 25vh;
+    background-color:#009b4e
+    
+}
+.connectwithus{
+    width: 100%;
+    height: 5vh;
+}
+.footericons{
+
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    
+    
+}
+.facebook1{
+    flex: 1;
+    
+    background-color: #009b4e;
+}
+.twitter1{
+    
+    flex: 1;
+    background-color: #009b4e;
+}
+.youtube1{
+    flex: 1;
+    background-color: #009b4e;
+}
+.instagram1{
+    flex: 1;
+    background-color: #009b4e;
+    margin-top: -5px;
+}
+.spotify1{
+    flex: 1;
+    background-color: #009b4e;
+}
+.connectwith{
+    
+    margin-top: 10px;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   
+   
+   
+}
+.mediatop
+{
+width: 100%;
+height: 10vh;
+background-color:#009b4e
+}
+.mediadown
+{
+    width: 100%;
+height: 20vh;
+background-color:#009b4e;
+align-self: center;
+display: flex;
+}
+.products1{
+    
+    margin-top: 12px;
+    margin-left: 20px;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   }
+.listhead
+{
+    width: 100%;
+    height: 50px;
+    background-color:#009b4e
+}
+.productlist
+{
+    padding-top: 1px;
+    width: 60%;
+    height: 300px;
+    background-color:#009b4e;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+
+}
+.pr1{
+    flex: 1;
+    background-color: ;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   cursor: pointer;
+
+}
+.pr2{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   cursor: pointer;
+
+}
+.pr3{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   cursor: pointer;
+
+}
+.pr4{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   cursor: pointer;
+
+}
+.pr5{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   cursor: pointer;
+}
+.pr6{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   cursor: pointer;
+
+}
+.pr7{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+   font-weight: 1000;
+   font-style: italic;
+  
+   color: rgb(255, 255, 255);
+   background-color: #009b4e;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.pr1:hover{
+    color: #000000;
+}.pr2:hover{
+    color: #000000;
+}.pr3:hover{
+    color: #000000;
+}.pr4:hover{
+    color: #000000;
+}.pr5:hover{
+    color: #000000;
+}.pr6:hover{
+    color: #000000;
+}.pr7:hover{
+    color: #000000;
+}
+.footerlast
+{
+    width: 100%;
+    height: 10vh;
+    background-color: #009b4e;
+    text-align: center;
+    padding: 20px;
+
+}
+.copyr
+{
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+    cursor: pointer;
+
+}
+.footerlast span{
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+
+}
+.footerlast span:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+text-decoration: underline;
+}
+.footerli
+{
+    width: 100%;
+    height: 10vh;
+    background-color: #009b4e;
+    text-align: center;
+    padding: 0% 10%;
+    display: flex;
+  
+   
+}
+.ulli1{
+    flex: 1.5;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+  
+    
+    cursor: pointer;
+
+}.ulli2{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+    cursor: pointer;
+
+}.ulli3{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+    cursor: pointer;
+
+}.ulli4{
+    flex: 5;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+    cursor: pointer;
+
+}.ulli5{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+    cursor: pointer;
+
+}.ulli6{
+    flex: 1.5;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+    cursor: pointer;
+
+}
+.ulli7{
+    flex: 1;
+    font-family: 'futura-extra-black-italic', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+   
+    color: rgb(255, 255, 255);
+    background-color: #009b4e;
+    
+    cursor: pointer;
+
+}
+.ulli1:hover
+{
+    color: #000000;
+}.ulli2:hover
+{
+    color: #000000;
+}
+.ulli3:hover
+{
+    color: #000000;
+}
+.ulli4:hover
+{
+    color: #000000;
+}
+.ulli5:hover
+{
+    color: #000000;
+}
+.ulli6:hover
+{
+    color: #000000;
+}
+.ulli7:hover
+{
+    color: #000000;
+}
+
